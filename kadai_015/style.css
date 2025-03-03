@@ -1,0 +1,55 @@
+/* 全体の基本スタイル */
+body {
+    font-family: "Arial", "Meiryo", sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  /* ルート要素のフォントサイズ指定 */
+  :root {
+    font-size: 20px;
+  }
+  
+  /* 見出しスタイル */
+  h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: calc(20px * 2); /* ルート要素の2倍 */
+    letter-spacing: 1.2em; /* 文字サイズの1.2倍 */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid rgb(115, 115, 114);
+    margin-bottom: 20px;
+  }
+  
+  /* 「M」と「P」の色指定 */
+  h1 .blue {
+    color: skyblue;
+  }
+  
+  h1 .pink {
+    color: rgb(255, 192, 203);
+  }
+  
+  /* 見出しの色指定 */
+  h2.pink {
+    color: rgb(255, 192, 203);
+  }
+  
+  h2.blue {
+    color: skyblue;
+  }
+  
+  /* 基本情報セクションの太字指定 */
+  #basic p {
+    font-weight: normal; /* 初期状態は通常の太さ */
+  }
+  
+  #basic p:first-of-type,
+  #basic p:nth-of-type(2),
+  #basic p:nth-of-type(3) {
+    font-weight: bold; /* 名前、生年月日、血液型を太字に */
+  }
+  
+  /* その他のp要素は通常の太さ */
+  p {
+    font-weight: normal;
+  }
