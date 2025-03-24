@@ -1,0 +1,69 @@
+#top {
+    width: 800px;
+    background-color: #dcc9f4;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .top-child {
+    width: 20%;
+    background-color: #ffd9df;
+    display: inline-block;
+  }
+  
+  #middle {
+    width: 800px;
+    height: 800px;
+    margin: 20px auto;
+    background-color: #ffd9df;
+    position: relative; /* 追記：positionプロパティを追加 */
+  }
+  
+  #middle-child01,
+  #middle-child02,
+  #middle-child03 {
+    width: 200px;
+    height: 200px;
+    background-color: #87ceeb;
+    position: absolute; /* 追記：positionプロパティを追加 */
+  }
+  
+  #middle-child01 {
+    top: 100px; /* 追記：上からの距離を指定 */
+    left: 100px; /* 追記：左からの距離を指定 */
+  }
+  
+  #middle-child02 {
+    top: 300px; /* 追記：上からの距離を指定 */
+    left: 300px; /* 追記：左からの距離を指定 */
+  }
+  
+  #middle-child03 {
+    top: 500px; /* 追記：上からの距離を指定 */
+    left: 500px; /* 追記：左からの距離を指定 */
+  }
+  
+  #bottom {
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #87ceeb;
+    position: relative; /* 追記：positionプロパティを追加 */
+  }
+  
+  #bottom-child01,
+  #bottom-child02,
+  #bottom-child03 {
+    width: 400px;
+    height: 100px;
+    background-color: #e5dcf0;
+    position: relative; /* 追記：positionプロパティを追加 */
+  }
+  
+  #bottom-child02 {
+    left: 200px; /* 追記：左に200pxずらす */
+  }
+  
+  #bottom-child03 {
+    left: 400px; /* 追記：左に400pxずらす */
+  }
